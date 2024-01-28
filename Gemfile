@@ -68,4 +68,4 @@ end
 
 gem "phlex-rails", "~> 1.1"
 
-gem "phlex-markdown", "~> 0.3.0"
+gem 'phlex-markdown', git: 'https://github.com/phlex-ruby/phlex-markdown'

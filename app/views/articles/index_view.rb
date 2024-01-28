@@ -4,7 +4,7 @@ class Articles::IndexView < ApplicationView
   
   
   def template
-   render Phlex::Markdown.new(content).call
+    plain MarkdownComponent.new(content).call.html_safe
   end
 
   def content 
